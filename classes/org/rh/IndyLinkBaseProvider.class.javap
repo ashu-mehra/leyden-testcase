@@ -1,0 +1,166 @@
+Classfile /home/asmehra/data/ashu-mehra/elytron-leyden/temp/classes/org/rh/IndyLinkBaseProvider.class
+  Last modified Sep 11, 2024; size 1441 bytes
+  SHA-256 checksum 685554154c6a3991fe0a049c0657dc182fdf38caa282e206b357b57326c843c8
+  Compiled from "IndyLinkBaseProvider.java"
+public class org.rh.IndyLinkBaseProvider extends org.util.Provider
+  minor version: 0
+  major version: 68
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #15                         // org/rh/IndyLinkBaseProvider
+  super_class: #2                         // org/util/Provider
+  interfaces: 0, fields: 0, methods: 4, attributes: 3
+Constant pool:
+   #1 = Methodref          #2.#3          // org/util/Provider."<init>":()V
+   #2 = Class              #4             // org/util/Provider
+   #3 = NameAndType        #5:#6          // "<init>":()V
+   #4 = Utf8               org/util/Provider
+   #5 = Utf8               <init>
+   #6 = Utf8               ()V
+   #7 = Class              #8             // org/util/Service
+   #8 = Utf8               org/util/Service
+   #9 = String             #10            // abcd
+  #10 = Utf8               abcd
+  #11 = Methodref          #7.#12         // org/util/Service."<init>":(Lorg/util/Provider;Ljava/lang/String;)V
+  #12 = NameAndType        #5:#13         // "<init>":(Lorg/util/Provider;Ljava/lang/String;)V
+  #13 = Utf8               (Lorg/util/Provider;Ljava/lang/String;)V
+  #14 = Methodref          #15.#16        // org/rh/IndyLinkBaseProvider.putService:(Lorg/util/Service;)V
+  #15 = Class              #17            // org/rh/IndyLinkBaseProvider
+  #16 = NameAndType        #18:#19        // putService:(Lorg/util/Service;)V
+  #17 = Utf8               org/rh/IndyLinkBaseProvider
+  #18 = Utf8               putService
+  #19 = Utf8               (Lorg/util/Service;)V
+  #20 = InvokeDynamic      #0:#21         // #0:accept:(Lorg/rh/IndyLinkBaseProvider;)Ljava/util/function/Consumer;
+  #21 = NameAndType        #22:#23        // accept:(Lorg/rh/IndyLinkBaseProvider;)Ljava/util/function/Consumer;
+  #22 = Utf8               accept
+  #23 = Utf8               (Lorg/rh/IndyLinkBaseProvider;)Ljava/util/function/Consumer;
+  #24 = Methodref          #15.#25        // org/rh/IndyLinkBaseProvider.addService:(Ljava/util/function/Consumer;Lorg/util/Provider;)V
+  #25 = NameAndType        #26:#27        // addService:(Ljava/util/function/Consumer;Lorg/util/Provider;)V
+  #26 = Utf8               addService
+  #27 = Utf8               (Ljava/util/function/Consumer;Lorg/util/Provider;)V
+  #28 = String             #29            // test
+  #29 = Utf8               test
+  #30 = InterfaceMethodref #31.#32        // java/util/function/Consumer.accept:(Ljava/lang/Object;)V
+  #31 = Class              #33            // java/util/function/Consumer
+  #32 = NameAndType        #22:#34        // accept:(Ljava/lang/Object;)V
+  #33 = Utf8               java/util/function/Consumer
+  #34 = Utf8               (Ljava/lang/Object;)V
+  #35 = Utf8               Code
+  #36 = Utf8               LineNumberTable
+  #37 = Utf8               addServices
+  #38 = Utf8               Signature
+  #39 = Utf8               (Ljava/util/function/Consumer<Lorg/util/Service;>;Lorg/util/Provider;)V
+  #40 = Utf8               lambda$addServices$0
+  #41 = Utf8               (Lorg/rh/IndyLinkBaseProvider;Lorg/util/Service;)V
+  #42 = Utf8               SourceFile
+  #43 = Utf8               IndyLinkBaseProvider.java
+  #44 = Utf8               BootstrapMethods
+  #45 = MethodType         #34            //  (Ljava/lang/Object;)V
+  #46 = MethodHandle       6:#47          // REF_invokeStatic org/rh/IndyLinkBaseProvider.lambda$addServices$0:(Lorg/rh/IndyLinkBaseProvider;Lorg/util/Service;)V
+  #47 = Methodref          #15.#48        // org/rh/IndyLinkBaseProvider.lambda$addServices$0:(Lorg/rh/IndyLinkBaseProvider;Lorg/util/Service;)V
+  #48 = NameAndType        #40:#41        // lambda$addServices$0:(Lorg/rh/IndyLinkBaseProvider;Lorg/util/Service;)V
+  #49 = MethodType         #19            //  (Lorg/util/Service;)V
+  #50 = MethodHandle       6:#51          // REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #51 = Methodref          #52.#53        // java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #52 = Class              #54            // java/lang/invoke/LambdaMetafactory
+  #53 = NameAndType        #55:#56        // metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #54 = Utf8               java/lang/invoke/LambdaMetafactory
+  #55 = Utf8               metafactory
+  #56 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #57 = Utf8               InnerClasses
+  #58 = Class              #59            // java/lang/invoke/MethodHandles$Lookup
+  #59 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #60 = Class              #61            // java/lang/invoke/MethodHandles
+  #61 = Utf8               java/lang/invoke/MethodHandles
+  #62 = Utf8               Lookup
+{
+  protected org.rh.IndyLinkBaseProvider();
+    descriptor: ()V
+    flags: (0x0004) ACC_PROTECTED
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method org/util/Provider."<init>":()V
+         4: return
+      LineNumberTable:
+        line 9: 0
+        line 10: 4
+
+  protected void addServices();
+    descriptor: ()V
+    flags: (0x0004) ACC_PROTECTED
+    Code:
+      stack=5, locals=2, args_size=1
+         0: aload_0
+         1: new           #7                  // class org/util/Service
+         4: dup
+         5: aload_0
+         6: ldc           #9                  // String abcd
+         8: invokespecial #11                 // Method org/util/Service."<init>":(Lorg/util/Provider;Ljava/lang/String;)V
+        11: invokevirtual #14                 // Method putService:(Lorg/util/Service;)V
+        14: aload_0
+        15: new           #7                  // class org/util/Service
+        18: dup
+        19: aload_0
+        20: ldc           #9                  // String abcd
+        22: invokespecial #11                 // Method org/util/Service."<init>":(Lorg/util/Provider;Ljava/lang/String;)V
+        25: invokevirtual #14                 // Method putService:(Lorg/util/Service;)V
+        28: aload_0
+        29: new           #7                  // class org/util/Service
+        32: dup
+        33: aload_0
+        34: ldc           #9                  // String abcd
+        36: invokespecial #11                 // Method org/util/Service."<init>":(Lorg/util/Provider;Ljava/lang/String;)V
+        39: invokevirtual #14                 // Method putService:(Lorg/util/Service;)V
+        42: aload_0
+        43: astore_1
+        44: aload_1
+        45: invokedynamic #20,  0             // InvokeDynamic #0:accept:(Lorg/rh/IndyLinkBaseProvider;)Ljava/util/function/Consumer;
+        50: aload_0
+        51: invokestatic  #24                 // Method addService:(Ljava/util/function/Consumer;Lorg/util/Provider;)V
+        54: return
+      LineNumberTable:
+        line 13: 0
+        line 14: 14
+        line 15: 28
+        line 16: 42
+        line 17: 54
+
+  static void addService(java.util.function.Consumer<org.util.Service>, org.util.Provider);
+    descriptor: (Ljava/util/function/Consumer;Lorg/util/Provider;)V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=5, locals=2, args_size=2
+         0: aload_0
+         1: new           #7                  // class org/util/Service
+         4: dup
+         5: aload_1
+         6: ldc           #28                 // String test
+         8: invokespecial #11                 // Method org/util/Service."<init>":(Lorg/util/Provider;Ljava/lang/String;)V
+        11: invokeinterface #30,  2           // InterfaceMethod java/util/function/Consumer.accept:(Ljava/lang/Object;)V
+        16: return
+      LineNumberTable:
+        line 20: 0
+        line 21: 16
+    Signature: #39                          // (Ljava/util/function/Consumer<Lorg/util/Service;>;Lorg/util/Provider;)V
+
+  private static void lambda$addServices$0(org.rh.IndyLinkBaseProvider, org.util.Service);
+    descriptor: (Lorg/rh/IndyLinkBaseProvider;Lorg/util/Service;)V
+    flags: (0x100a) ACC_PRIVATE, ACC_STATIC, ACC_SYNTHETIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: aload_1
+         2: invokevirtual #14                 // Method putService:(Lorg/util/Service;)V
+         5: return
+      LineNumberTable:
+        line 16: 0
+}
+SourceFile: "IndyLinkBaseProvider.java"
+BootstrapMethods:
+  0: #50 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #45 (Ljava/lang/Object;)V
+      #46 REF_invokeStatic org/rh/IndyLinkBaseProvider.lambda$addServices$0:(Lorg/rh/IndyLinkBaseProvider;Lorg/util/Service;)V
+      #49 (Lorg/util/Service;)V
+InnerClasses:
+  public static final #62= #58 of #60;    // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles

@@ -1,0 +1,77 @@
+Classfile /home/asmehra/data/ashu-mehra/elytron-leyden/temp/classes/org/rh/test/IndyLinkTestProvider.class
+  Last modified Sep 11, 2024; size 449 bytes
+  SHA-256 checksum a9d40befcd0ae3fd304945ad7706704c82937fb4bac07bf0ce618762d16fe774
+  Compiled from "IndyLinkTestProvider.java"
+public class org.rh.test.IndyLinkTestProvider extends org.rh.IndyLinkBaseProvider
+  minor version: 0
+  major version: 68
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #8                          // org/rh/test/IndyLinkTestProvider
+  super_class: #2                         // org/rh/IndyLinkBaseProvider
+  interfaces: 0, fields: 1, methods: 3, attributes: 1
+Constant pool:
+   #1 = Methodref          #2.#3          // org/rh/IndyLinkBaseProvider."<init>":()V
+   #2 = Class              #4             // org/rh/IndyLinkBaseProvider
+   #3 = NameAndType        #5:#6          // "<init>":()V
+   #4 = Utf8               org/rh/IndyLinkBaseProvider
+   #5 = Utf8               <init>
+   #6 = Utf8               ()V
+   #7 = Methodref          #8.#9          // org/rh/test/IndyLinkTestProvider.addServices:()V
+   #8 = Class              #10            // org/rh/test/IndyLinkTestProvider
+   #9 = NameAndType        #11:#6         // addServices:()V
+  #10 = Utf8               org/rh/test/IndyLinkTestProvider
+  #11 = Utf8               addServices
+  #12 = Methodref          #8.#3          // org/rh/test/IndyLinkTestProvider."<init>":()V
+  #13 = Fieldref           #8.#14         // org/rh/test/IndyLinkTestProvider.INSTANCE:Lorg/rh/test/IndyLinkTestProvider;
+  #14 = NameAndType        #15:#16        // INSTANCE:Lorg/rh/test/IndyLinkTestProvider;
+  #15 = Utf8               INSTANCE
+  #16 = Utf8               Lorg/rh/test/IndyLinkTestProvider;
+  #17 = Utf8               run
+  #18 = Utf8               Code
+  #19 = Utf8               LineNumberTable
+  #20 = Utf8               <clinit>
+  #21 = Utf8               SourceFile
+  #22 = Utf8               IndyLinkTestProvider.java
+{
+  private static org.rh.test.IndyLinkTestProvider INSTANCE;
+    descriptor: Lorg/rh/test/IndyLinkTestProvider;
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+
+  public static void run();
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=0, args_size=0
+         0: return
+      LineNumberTable:
+        line 8: 0
+
+  public org.rh.test.IndyLinkTestProvider();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method org/rh/IndyLinkBaseProvider."<init>":()V
+         4: aload_0
+         5: invokevirtual #7                  // Method addServices:()V
+         8: return
+      LineNumberTable:
+        line 9: 0
+        line 10: 4
+        line 11: 8
+
+  static {};
+    descriptor: ()V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: new           #8                  // class org/rh/test/IndyLinkTestProvider
+         3: dup
+         4: invokespecial #12                 // Method "<init>":()V
+         7: putstatic     #13                 // Field INSTANCE:Lorg/rh/test/IndyLinkTestProvider;
+        10: return
+      LineNumberTable:
+        line 6: 0
+}
+SourceFile: "IndyLinkTestProvider.java"
